@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="well">
+			<% if params[:plan] == '2' %>
+				<%= render 'pro_form' %>
+			<% else %>
+				<%= render 'basic_form' %>
+			<% end %>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
